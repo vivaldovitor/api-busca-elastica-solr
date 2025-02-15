@@ -24,3 +24,8 @@ Esse comando irá iniciar os seguintes containers:
 - [Docker Compose](https://docs.docker.com/compose/)
 - [Flask](https://flask.palletsprojects.com/)
 - [Apache Solr](https://solr.apache.org/)
+
+## Desenvolvedores
+
+[Alysson Pereira](),
+[Vivaldo Vítor]()

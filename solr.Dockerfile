@@ -1,4 +1,3 @@
-
 FROM bitnami/solr:latest
 
 # Alternar para root para copiar os arquivos
