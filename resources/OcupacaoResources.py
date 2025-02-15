@@ -67,7 +67,7 @@ class BuscadorOcupacoes(Resource):
     def get(self):
         termo = request.args.get("q", "*:*")
         params = {
-            "q": termo+"~",
+            "q": f"titulo:{termo}*",
             "wt": "json"
         }
 

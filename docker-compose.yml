@@ -12,8 +12,8 @@ services:
       - pgdata:/var/lib/postgresql/data
 
   solr:
-    container_name: solr
-    image: solr
+    container_name: buscador_solr
+    image: solr:latest
     ports:
      - "8983:8983"
     volumes:
